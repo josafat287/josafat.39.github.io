@@ -1,0 +1,224 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Titan+One&display=swap');
+@font-face{
+	font-family:"josafat";
+	src: url("../tipografia/FingerPaint-Regular.ttf");
+}
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+nav ul li a {
+    font-size: 16px;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: #242E36;
+}
+nav ul li a:link {
+    color: #F7F284;
+}
+nav ul li a:visited {
+    color: #ADDAED;
+}
+nav ul li a:hover {
+}
+main {
+    background-color: #255985;
+    padding: 50px;
+    height: auto;
+}
+main section {
+    padding: 30px;
+    background-color: #ADDAED;
+    width: 70%;
+    margin: 30px auto;
+}
+footer {
+    background-color: #242E36;
+    color: #F7F4B4;
+    text-align: center;
+}
+footer h6 {
+    margin: 0 auto;
+    width: 30%;
+    font-weight: 900;
+    font-size: 19px;
+    text-align: center;
+    font-family: "Zapfino Extra LT One", "Zapfino Extra LT Pro", "Zapfino Extra LT Two", "Zapfino Forte LT Pro", "Palatino Linotype";
+    font-style: normal;
+}
+
+
+header {
+    background-color: #389ABD;
+    color: #FFFFFF;
+}
+header h1 {
+    width: 72%;
+    font-family: "Montserrat Black", "Montserrat Medium", "Montserrat ExtraBold", "Montserrat Thin";
+    font-weight: bold;
+    font-size: 32px;
+    font-style: normal;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+main section h2 {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+}
+main section p {
+    font-family: "Montserrat Light", "Montserrat Black", "Montserrat Medium";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: small;
+    font-variant: normal;
+}
+
+
+nav {
+    background-color: #242E36;
+    color: #FFFFFF;
+}
+nav ul li {
+    padding: 10px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+}
+header , nav , main, footer{
+    margin: 0 auto;
+    padding: 20px;
+    width: 80%;
+}
+#foto_1   {
+    width: 60%;
+    height: auto;
+    padding-top: 30px;
+}
+#foto_2 {
+    width: 60%;
+    height: auto;
+    padding-top: 30px;
+}
+#foto_3 {
+    width: 60%;
+    height: auto;
+    padding-top: 30px;
+}
+#foto_4 {
+    width: 30%;
+    height: auto;
+    float: left;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#foto_5 {
+    width: 30%;
+    height: auto;
+    float: right;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.foto_61 {
+    width: 27%;
+    margin: auto;
+    height: auto;
+}
+.filtro_blur {
+    filter: blur(5px);
+}
+.filtro_brillo {
+    filter: brightness(100%);
+    filter: brightness(50%);
+}
+.filtro_contraste {
+    filter: contrast(25%);
+}
+.filtro_grayscale {
+    filter: grayscale(100%);
+}
+.filtro_opacidad {
+    filter: opacity(50%);
+}
+.filtro_saturacion {
+    filter: saturate(40%);
+}
+.filtro_sepia {
+    filter: sepia(100%);
+}
+.filtro_negativo {
+    filter: invert(70%);
+}
+.size_video {
+    width: 30%;
+    height: auto;
+    padding: 20px;
+    float: left;
+}
+.size_video2 {
+    padding: 10px;
+
+
+}
+input[type=text], input[type=password], input[type=email], textarea{
+	width: 30%;
+	padding: 5px;
+	margin: 5px 5px;
+	border: 2px solid #242E36;
+	border-radius: 10px;
+	color:mediumblue;
+	font:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+input[type=submit]{
+	width: 35%;
+	height: 20px;
+	background-color:darkslategray;
+	color: aliceblue;
+	border-radius: 20px;
+	cursor: pointer;
+}
+input[type=submit]:hover{
+	width: 33%;
+	background-color:#389ABD;
+	color: #242E36;
+}
+#comentario{
+	resize: none;
+}
+input[type=tel], input[type=number], input[type=date], input[type=url], input[type=fileField]{
+	width: 30%;
+	padding: 5px;
+	margin: 5px;
+	border: 2px solid #242E36;
+	border-radius: 10px;
+	color: brown;
+	font:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+.fuente_local {
+    font-family: "Eastman Trial Black", "Eastman Trial Extrabold", "Eastman Trial Extralight", "Eastman Trial Heavy", "Eastman Trial Light", "Eastman Trial Medium", "Eastman Trial Offset", "Eastman Trial Thin";
+}
+.fuente_google_enlazada{
+	font-family: 'Bangers', cursive;
+}
+.fuente_google_importada {
+}
+.fuente_google_importada{
+	font-family: 'Bangers', cursive;
+font-family: 'Titan One', cursive;
+}
+.font_jos {
+	font-family:"josafat";
+}
+.nav {
+    color: #FFFFFF;
+}
