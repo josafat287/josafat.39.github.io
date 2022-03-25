@@ -1,0 +1,176 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tablas</title>
+<link href="../css/style_imagenes.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+		table,th,td{
+			border: 3px solid #2A00FF;
+			border-collapse: collapse;
+		}
+		th,td{
+			padding: 10px;
+			text-align: center;
+			
+		}
+		h2{
+			font-size: 30px;
+		}
+		#style_tabla_1,#style_tabla_1 th,#style_tabla_1 td{
+			border: 3px solid #2A00FF;
+			border-collapse: separate;
+			background-color: gold;
+		}
+		#style_tabla_1{
+			width: 300px;
+			height: 100px;
+		}
+		#style_tabla_1 th{
+			background-color: aqua;
+		}
+		#style_tabla_1 td{
+			text-align: center;
+		}
+		#style_tabla_2 th,#style_tabla_2 td{
+			border: 3px solid #2A00FF;
+		}
+		#style_tabla_2 tr:nth-child(even){
+			background-color: antiquewhite;
+			color:darkslategrey;
+		}
+		#style_tabla_2 tr:nth-child(odd){
+			background-color:yellowgreen;
+			color:darkblue;
+		}
+		.encabezado_par{
+			color: lightslategray;
+			font-size: 15px;
+		}
+		.enacbezado_impar{
+			color: crimson;
+			font-size: 25px;
+		}
+		.encabezado_verde{
+			color:seagreen;
+			font-size: 25px;
+		}
+	</style>
+</head>
+
+<body>
+<header>
+  <h1>Tablas en html</h1>
+</header>
+<nav>
+  <ul>
+    <li><a href="../index.html">Indice</a></li>
+    <li><a href="audio.html">Audio&nbsp;</a></li>
+    <li><a href="estilo_texto.html">Estilos de texto&nbsp;</a></li>
+    <li><a href="formularios.html">Formulario&nbsp;</a></li>
+    <li><a href="fuentes.html">Fuentes&nbsp;</a></li>
+    <li><a href="imagenes.html">Imágenes&nbsp;</a></li>
+    <li><a href="listas.1.html">Listas&nbsp;</a></li>
+    <li><a href="video.html">Video&nbsp;</a></li>
+  </ul>
+</nav>
+<main>
+  <section class="encabezado_par">
+    <h2>Este es el contenido de la etiqueta H2 de diseño</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore eligendi quam suscipit consequuntur accusantium magnam ipsum dicta qui a, repudiandae, tenetur vitae eaque dolor. Pariatur laboriosam libero similique error! Voluptas consequatur accusamus cum hic corrupti omnis repellat earum magni laboriosam obcaecati et saepe, dicta sequi voluptate! Et aliquid sunt hic animi illum. Corrupti assumenda hic error blanditiis sapiente quis aperiam porro, debitis sunt ducimus, odio nulla repellat reiciendis, eveniet laborum. At reprehenderit consequatur consectetur, dignissimos odio aliquam, excepturi culpa doloremque.Este es el contenido de la etiqueta P de diseño</p>
+	  <br>
+    <table id="style_tabla_1">
+	      <thead>
+		   <tr>
+			   <th colspan="2">Apellidos</th>
+			   <!--<th >Apellido Materno</th>-->
+			   <th >Nombre</th>
+			   <th >Edad</th>
+			   <th >Correo</th>
+		   </tr>
+		  </thead>
+		  <tbody>
+			<tr>
+				<td>Herrera</td>
+				<td>Palacios</td>
+				<td>Mónica</td>
+				<td>18 años</td>
+				<td>palacios.38@gmail.com</td>
+		    </tr>
+			<tr>
+				<td>Baez</td>
+				<td>Gómez</td>
+				<td>Pedro</td>
+				<td>18 años</td>
+				<td>pedrito.99@gmail.com</td>
+		    </tr>
+		  </tbody>
+		  <tfoot>
+		  
+		  </tfoot>
+	  </table>
+  </section>
+  <section>
+    <h2 class="encabezado_verde">Este es el contenido de la etiqueta H2 de diseño</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore eligendi quam suscipit consequuntur accusantium magnam ipsum dicta qui a, repudiandae, tenetur vitae eaque dolor. Pariatur laboriosam libero similique error! Voluptas consequatur accusamus cum hic corrupti omnis repellat earum magni laboriosam obcaecati et saepe, dicta sequi voluptate! Et aliquid sunt hic animi illum. Corrupti assumenda hic error blanditiis sapiente quis aperiam porro, debitis sunt ducimus, odio nulla repellat reiciendis, eveniet laborum. At reprehenderit consequatur consectetur, dignissimos odio aliquam, excepturi culpa doloremque.Este es el contenido de la etiqueta P de diseño</p>
+    <table id="style_tabla_1" width="397" border="3">
+      <tbody>
+        <tr>
+          <th >Nombre</th>
+          <th >Teléfono</th>
+          <th >Edad</th>
+        </tr>
+        <tr>
+          <td>&nbsp;Juan Rodríguez Mendoza</td>
+          <td>&nbsp;2215961826</td>
+          <td>&nbsp;19 años</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Pedro Miranes Salasar</td>
+          <td>&nbsp;2215961828</td>
+          <td>&nbsp;18 años</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Ricardo Gómez Rivas</td>
+          <td>&nbsp;2215961827</td>
+          <td>&nbsp;18 años</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <section>
+    <h2 class="encabezado_par">Este es el contenido de la etiqueta H2 de diseño</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore eligendi quam suscipit consequuntur accusantium magnam ipsum dicta qui a, repudiandae, tenetur vitae eaque dolor. Pariatur laboriosam libero similique error! Voluptas consequatur accusamus cum hic corrupti omnis repellat earum magni laboriosam obcaecati et saepe, dicta sequi voluptate! Et aliquid sunt hic animi illum. Corrupti assumenda hic error blanditiis sapiente quis aperiam porro, debitis sunt ducimus, odio nulla repellat reiciendis, eveniet laborum. At reprehenderit consequatur consectetur, dignissimos odio aliquam, excepturi culpa doloremque.Este es el contenido de la etiqueta P de diseño</p>
+  <table id="style_tabla_2" width="400" border="3">
+      <tbody>
+        <tr>
+          <th>Marca</th>
+          <th>Modelo</th>
+          <th>Color</th>
+        </tr>
+        <tr>
+          <td>jumex</td>
+          <td>59Sde</td>
+          <td>azul</td>
+        </tr>
+        <tr>
+          <td>jumex</td>
+          <td>98Fxe</td>
+          <td>verde</td>
+        </tr>
+        <tr>
+          <td>jumex</td>
+          <td>96Hlo</td>
+          <td>rosa</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <section>
+    <h2>Este es el contenido de la etiqueta H2 de diseño</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore eligendi quam suscipit consequuntur accusantium magnam ipsum dicta qui a, repudiandae, tenetur vitae eaque dolor. Pariatur laboriosam libero similique error! Voluptas consequatur accusamus cum hic corrupti omnis repellat earum magni laboriosam obcaecati et saepe, dicta sequi voluptate! Et aliquid sunt hic animi illum. Corrupti assumenda hic error blanditiis sapiente quis aperiam porro, debitis sunt ducimus, odio nulla repellat reiciendis, eveniet laborum. At reprehenderit consequatur consectetur, dignissimos odio aliquam, excepturi culpa doloremque.Este es el contenido de la etiqueta P de diseño</p>
+  </section>
+</main>
+<footer>Elaborado por Josafat Hazael Garcia Salas&nbsp;</footer>
+</body>
+</html>

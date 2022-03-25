@@ -1,0 +1,45 @@
+@charset "utf-8";
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0;
+    box-sizing: border-box;
+}
+body header h1 {
+}
+header {
+    background-color: #F75154;
+}
+nav {
+    background-color: #1B1A44;
+}
+nav ul {
+    color: #EBF397;
+}
+main {
+    background-color: #B0B0B0;
+}
+main section h2 p {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+}
+footer {
+    background-color: #1B1A44;
+}
+footer h6 {
+    color: #EBF397;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+header, nav, main, footer{
+	margin: 0 auto;
+    padding: 20px;
+    width: 80%;
+}
